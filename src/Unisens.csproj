@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{FB6AACBA-DE8A-4034-AC3E-460CD306E481}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>Unisens</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>org.unisens</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Unisens.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Unisens.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="config\MANIFEST.MF" />
+    <None Include="config\unisens.cfg" />
+    <None Include="events.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="org.unisens\Dataset.ucd" />
+    <None Include="org.unisens\Dataset.uml" />
+    <None Include="org.unisens\Entries.ucd" />
+    <None Include="org.unisens\Entries.uml" />
+    <None Include="org.unisens\FileFormat.ucd" />
+    <None Include="org.unisens\FileFormat.uml" />
+    <None Include="org.unisens\FileFormats.ucd" />
+    <None Include="org.unisens\FileFormats.uml" />
+    <None Include="UserSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="signal.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="unisens.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="values.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="org.unisens\BinFileFormat.cs" />
+    <Compile Include="org.unisens\Context.cs" />
+    <Compile Include="org.unisens\CsvFileFormat.cs" />
+    <Compile Include="org.unisens\CustomEntry.cs" />
+    <Compile Include="org.unisens\CustomFileFormat.cs" />
+    <Compile Include="org.unisens\DataType.cs" />
+    <Compile Include="org.unisens\DuplicateIdException.cs" />
+    <Compile Include="org.unisens\Endianess.cs" />
+    <Compile Include="org.unisens\Entry.cs" />
+    <Compile Include="org.unisens\Event.cs" />
+    <Compile Include="org.unisens\EventEntry.cs" />
+    <Compile Include="org.unisens\FileFormat.cs" />
+    <Compile Include="org.unisens\Group.cs" />
+    <Compile Include="org.unisens\MeasurementEntry.cs" />
+    <Compile Include="org.unisens\ri\BinFileFormatImpl.cs" />
+    <Compile Include="org.unisens\ri\config\Constants.cs" />
+    <Compile Include="org.unisens\ri\config\UnisensErrorHandler.cs" />
+    <Compile Include="org.unisens\ri\ContextImpl.cs" />
+    <Compile Include="org.unisens\ri\CsvFileFormatImpl.cs" />
+    <Compile Include="org.unisens\ri\CustomEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\CustomFileFormatImpl.cs" />
+    <Compile Include="org.unisens\ri\EntryImpl.cs" />
+    <Compile Include="org.unisens\ri\EventEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\FileFormatImpl.cs" />
+    <Compile Include="org.unisens\ri\GroupImpl.cs" />
+    <Compile Include="org.unisens\ri\io\AbstractReader.cs" />
+    <Compile Include="org.unisens\ri\io\AbstractWriter.cs" />
+    <Compile Include="org.unisens\ri\io\bin\EventBinReader.cs" />
+    <Compile Include="org.unisens\ri\io\bin\EventBinWriter.cs" />
+    <Compile Include="org.unisens\ri\io\bin\SignalBinReader.cs" />
+    <Compile Include="org.unisens\ri\io\bin\SignalBinWriter.cs" />
+    <Compile Include="org.unisens\ri\io\bin\ValuesBinReader.cs" />
+    <Compile Include="org.unisens\ri\io\bin\ValuesBinWriter.cs" />
+    <Compile Include="org.unisens\ri\io\BufferedFileReader.cs" />
+    <Compile Include="org.unisens\ri\io\BufferedFileWriter.cs" />
+    <Compile Include="org.unisens\ri\io\csv\EventCsvReader.cs" />
+    <Compile Include="org.unisens\ri\io\csv\EventCsvWriter.cs" />
+    <Compile Include="org.unisens\ri\io\csv\SignalCsvReader.cs" />
+    <Compile Include="org.unisens\ri\io\csv\SignalCsvWriter.cs" />
+    <Compile Include="org.unisens\ri\io\csv\ValuesCsvReader.cs" />
+    <Compile Include="org.unisens\ri\io\csv\ValuesCsvWriter.cs" />
+    <Compile Include="org.unisens\ri\io\EventIoFactory.cs" />
+    <Compile Include="org.unisens\ri\io\EventReader.cs" />
+    <Compile Include="org.unisens\ri\io\EventWriter.cs" />
+    <Compile Include="org.unisens\ri\io\SignalIoFactory.cs" />
+    <Compile Include="org.unisens\ri\io\SignalReader.cs" />
+    <Compile Include="org.unisens\ri\io\SignalWriter.cs" />
+    <Compile Include="org.unisens\ri\io\ValuesIoFactory.cs" />
+    <Compile Include="org.unisens\ri\io\ValuesReader.cs" />
+    <Compile Include="org.unisens\ri\io\ValuesWriter.cs" />
+    <Compile Include="org.unisens\ri\io\xml\EventXmlReader.cs" />
+    <Compile Include="org.unisens\ri\io\xml\EventXmlWriter.cs" />
+    <Compile Include="org.unisens\ri\io\xml\SignalXmlReader.cs" />
+    <Compile Include="org.unisens\ri\io\xml\SignalXmlWriter.cs" />
+    <Compile Include="org.unisens\ri\io\xml\ValuesXmlReader.cs" />
+    <Compile Include="org.unisens\ri\io\xml\ValuesXmlWriter.cs" />
+    <Compile Include="org.unisens\ri\MeasurementEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\SignalEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\TimedEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\UnisensFactoryImpl.cs" />
+    <Compile Include="org.unisens\ri\UnisensImpl.cs" />
+    <Compile Include="org.unisens\ri\util\ByteBuffer.cs" />
+    <Compile Include="org.unisens\ri\util\ByteOrder.cs" />
+    <Compile Include="org.unisens\ri\util\StringTokenizer.cs" />
+    <Compile Include="org.unisens\ri\util\Utilities.cs" />
+    <Compile Include="org.unisens\ri\ValuesEntryImpl.cs" />
+    <Compile Include="org.unisens\ri\Version.cs" />
+    <Compile Include="org.unisens\ri\XmlFileFormatImpl.cs" />
+    <Compile Include="org.unisens\SignalEntry.cs" />
+    <Compile Include="org.unisens\TimedEntry.cs" />
+    <Compile Include="org.unisens\Unisens.cs" />
+    <Compile Include="org.unisens\UnisensFactory.cs" />
+    <Compile Include="org.unisens\UnisensFactoryBuilder.cs" />
+    <Compile Include="org.unisens\UnisensParseException.cs" />
+    <Compile Include="org.unisens\UnisensParseExceptionTypeEnum.cs" />
+    <Compile Include="org.unisens\Value.cs" />
+    <Compile Include="org.unisens\ValueList.cs" />
+    <Compile Include="org.unisens\ValuesEntry.cs" />
+    <Compile Include="org.unisens\Version.cs" />
+    <Compile Include="org.unisens\XmlFileFormat.cs" />
+    <Compile Include="UserSettings.Designer.cs">
+      <DependentUpon>UserSettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

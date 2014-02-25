@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<unisens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.unisens.org/unisens2.0 http://www.unisens.org/unisens2.0/unisens.xsd" xmlns="http://www.unisens.org/unisens2.0" comment="This data set contains allmost all possible variations of signal entries: different fixed point data types, different array sizes and different file formats" measurementId="test_01" timestampStart="2010-01-01T12:00:00.000">
+  <signalEntry dataType="uint8" id="test_signal_1x12_UINT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_1x12_UINT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_1x12_UINT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x12_UINT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x12_UINT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x12_UINT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_1x1_UINT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_1x1_UINT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_1x1_UINT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x1_UINT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x1_UINT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint8" id="test_signal_2x1_UINT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x12_INT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x12_INT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x12_INT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x12_INT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x12_INT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x12_INT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x1_INT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x1_INT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_1x1_INT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x1_INT8.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x1_INT8.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int8" id="test_signal_2x1_INT8.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x12_UINT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x12_UINT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x12_UINT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x12_UINT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x12_UINT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x12_UINT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x1_UINT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x1_UINT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_1x1_UINT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x1_UINT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x1_UINT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint16" id="test_signal_2x1_UINT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x12_INT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x12_INT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x12_INT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x12_INT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x12_INT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x12_INT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x1_INT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x1_INT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_1x1_INT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x1_INT16.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x1_INT16.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int16" id="test_signal_2x1_INT16.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x12_UINT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x12_UINT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x12_UINT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x12_UINT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x12_UINT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x12_UINT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x1_UINT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x1_UINT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_1x1_UINT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x1_UINT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x1_UINT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="uint32" id="test_signal_2x1_UINT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x12_INT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x12_INT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x12_INT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x12_INT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x12_INT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x12_INT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x1_INT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x1_INT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_1x1_INT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x1_INT32.bin" lsbValue="1" sampleRate="100">
+    <binFileFormat endianess="BIG" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x1_INT32.csv" lsbValue="1" sampleRate="100">
+    <csvFileFormat decimalSeparator="," separator=";" />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+  <signalEntry dataType="int32" id="test_signal_2x1_INT32.xml" lsbValue="1" sampleRate="100">
+    <xmlFileFormat />
+    <channel name="CH1" />
+    <channel name="CH2" />
+  </signalEntry>
+</unisens>

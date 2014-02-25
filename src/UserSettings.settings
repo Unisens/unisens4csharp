@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UnisensTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="signal_csv_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.SignalCsvReader</Value>
+    </Setting>
+    <Setting Name="signal_csv_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.SignalCsvWriter</Value>
+    </Setting>
+    <Setting Name="signal_bin_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.SignalBinReader</Value>
+    </Setting>
+    <Setting Name="signal_bin_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.SignalBinWriter</Value>
+    </Setting>
+    <Setting Name="signal_xml_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.SignalXmlReader</Value>
+    </Setting>
+    <Setting Name="signal_xml_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.SignalXmlWriter</Value>
+    </Setting>
+    <Setting Name="values_csv_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.ValuesCsvReader</Value>
+    </Setting>
+    <Setting Name="values_csv_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.ValuesCsvWriter</Value>
+    </Setting>
+    <Setting Name="values_bin_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.ValuesBinReader</Value>
+    </Setting>
+    <Setting Name="values_bin_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.ValuesBinWriter</Value>
+    </Setting>
+    <Setting Name="values_xml_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.ValuesXmlReader</Value>
+    </Setting>
+    <Setting Name="values_xml_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.ValuesXmlWriter</Value>
+    </Setting>
+    <Setting Name="event_csv_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.EventCsvReader</Value>
+    </Setting>
+    <Setting Name="event_csv_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.csv.EventCsvWriter</Value>
+    </Setting>
+    <Setting Name="event_bin_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.EventBinReader</Value>
+    </Setting>
+    <Setting Name="event_bin_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.bin.EventBinWriter</Value>
+    </Setting>
+    <Setting Name="event_xml_reader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.EventXmlReader</Value>
+    </Setting>
+    <Setting Name="event_xml_writer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.io.xml.EventXmlWriter</Value>
+    </Setting>
+    <Setting Name="validation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="StandardUnisensFactoryClass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">org.unisens.ri.UnisensFactoryImpl</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
